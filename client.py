@@ -178,7 +178,7 @@ def main(host, port):
     btnSend = tk.Button(
         master=window,
         text='Send',
-        command=lambda: Client.send(textInput)
+        command=lambda: client.send(textInput)
     )
 
     fromEntry.grid(row=1, column=0, padx=10, sticky="ew")
